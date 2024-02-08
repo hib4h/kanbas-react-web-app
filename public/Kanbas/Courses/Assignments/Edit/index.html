@@ -21,12 +21,128 @@
         <ol class="breadcrumb">
           <li class="breadcrumb-item"><a href="/Kanbas/Courses/Home/screen.html">CS5610.11744.202310</a></li>
           <li class="breadcrumb-item"><a href="/Kanbas/Courses/Assignments/screen.html">Assignments</a></li>
-          <li class="breadcrumb-item active" aria-current="page">A1 SETUP</li>
+          <li class="breadcrumb-item active" aria-current="page">A1 - ENV + HTML</li>
         </ol>
       </nav>
     </div>
     <hr>
-    
+    <div>
+      <span class="float-end">
+        <i class="fa fa-check-circle" style="color: green"></i>
+        <span style="color:green">Published</span>
+      <button class="btn btn-gray-2"><i class="fa fa-ellipsis-v"></i></button>
+      </span>
+    </div>
+    <br>
+    <div class="container">
+      <form>
+        Assignment Name
+        <input type="text" class="form-control mt-1" placeholder="A1 - ENV + HTML">
+        
+        <textarea rows="4" class="form-control mt-3" rows="3" placeholder="This assignment describes how to install the development environment for creating and working with Web applications we will be developing this semester. We will add new content every week, pushing the code to a GitHub source repository, and then deploying the content to a remote server hosted on Netlify."></textarea>
+      </form>
+    </div>
+        <div class="container">
+          <div class="row">
+            <div class="col-2 text-right">
+              Points
+            </div>
+            <div class="col-6">
+              <form>
+                <input type="text" class="form-control" placeholder="100">
+              </form>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-2 text-right">
+              Assignment Group
+            </div>
+            <div class="col-6">
+              <select class="form-control mb-3">
+          <option value="">ASSIGNMENTS</option>
+          <option value="option1">Quizzes</option>
+        </select>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-2">
+              <span class="text-right">Display Grade as</span>
+            </div>
+            <div class="col-6">
+              <select class="form-control mb-2">
+                <option value="">Percentage</option>
+                <option value="option1">Letter</option>
+              </select>
+              <div class="form-check mb-3">
+                <input class="form-check-input" type="checkbox" id="myCheckbox" name="myCheckbox">
+    <label class="form-check-label" for="myCheckbox">
+      Do not count this assignment towards the final grade
+    </label>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-2">
+              <span class="text-right">Assign</span>
+            </div>
+            <div class="col-6">
+              <div class="card">
+                <div class="card-body">
+                    <p class="card-text">
+                      <form>
+                        <label for="assign"><b>Assign to</b></label>
+                        <input type="text" id="assign" class="form-control mb-2" placeholder="Everyone">
+                        <div class="form-group">
+                          <label for="dateInput"><b>Due</b></label>
+                          <input type="date" class="form-control mb-2" id="dateInput" name="dateInput">
+                        </div>
+                        <div class="form-group">
+                          <label for="dateInput"><b>Available from</b></label>
+                          <input type="date" class="form-control" id="dateInput" name="dateInput">
+                        </div>
+                        <span>
+                          <label for="startDateInput">Start Date:</label>
+                              <input type="date" class="form-control" style="width: 30%" id="startDateInput" name="startDateInput">
+                              <label for="endDateInput">End Date:</label>
+                              <input type="date" class="form-control" style="width: 30%" id="endDateInput" name="endDateInput">
+                        </span>
+                        <div class="form-row">
+                          <div class="col">
+                            <div class="form-group">
+                              <label for="startDateInput">Start Date:</label>
+                              <input type="date" class="form-control" style="width: 45%" id="startDateInput" name="startDateInput">
+                            </div>
+                          </div>
+                          <div class="col">
+                            <div class="form-group">
+                              <label for="endDateInput">End Date:</label>
+                              <input type="date" class="form-control" style="width: 45%" id="endDateInput" name="endDateInput">
+                            </div>
+                          </div>
+                        </div>
+                      </form>
+                        <!-- Some quick example text to build on the card
+                        title and make up the bulk of the card's content.</p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a> -->
+                </div>
+            </div>
+            </div>
+          </div>
+        </div>
+      </form>
+    </div>
+    <hr>
+    <div>
+      <input class="form-check-input" type="checkbox" id="myCheckbox" name="myCheckbox">
+<label class="form-check-label" for="myCheckbox">
+Notify users that this content has changed
+</label>
+      <span class="float-end">
+        <button class="btn btn-gray">Cancel</button>
+        <button class="btn btn-red">Save</button>
+      </span>
+    </div>
+    <hr>
   </body>
 </html>
 
