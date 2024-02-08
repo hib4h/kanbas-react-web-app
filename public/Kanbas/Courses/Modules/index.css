@@ -27,6 +27,17 @@
   border-left: 2px solid green;
 }
 
+.wd-modules > li > ul > li > a {
+  text-decoration: none;
+    color: red;
+}
+
 .wd-modules > li {
   margin-bottom: 20px;
+}
+
+.btn-primary {
+  background-color: lightgray;
+  border-color: lightgray;
+  color: black;
 }

@@ -1,0 +1,45 @@
+.wd-status {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    width: 155px;
+    margin-left: 10;
+  }
+
+  .wd-status li.heading {
+    font-size: 100%;
+  }
+
+  .wd-status li {
+    font-size: 85%;
+  }
+
+.btn-small-1 {
+    padding: 0.25rem 0.5rem;
+    font-size: 0.75rem;
+    width: 75px;
+    background-color: lightgray;
+  border-color: lightgray;
+  color: black;
+  margin-bottom: 10;
+  }
+
+  .btn-small-2 {
+    padding: 0.25rem 0.5rem;
+    font-size: 0.75rem;
+    width: 75px;
+    background-color: rgb(126, 197, 126);
+  border-color: rgb(126, 197, 126);
+  color: white;
+  margin-bottom: 10;
+  }
+
+  .btn-primary {
+    padding: 0.25rem 0.5rem;
+    font-size: 0.75rem;
+    width: 155px;
+    background-color: lightgray;
+  border-color: lightgray;
+  color: black;
+  margin-bottom: 3;
+  }
