@@ -1,26 +1,26 @@
 .btn {
     padding: 0.25rem 0.5rem;
     font-size: 0.9rem;
-  }
+}
 
 .btn-gray-2 {
     background-color: lightgray;
     border-color: lightgray;
     color: black;
     padding: 7.8
-  }
+}
 
-  .btn-gray {
+.btn-gray {
     background-color: lightgray;
     border-color: lightgray;
     color: black;
     margin-bottom: 8;
-  }
+}
 
-  .btn-red {
+.btn-red {
     background-color: red;
     border-color: red;
     color: white;
     margin-right: 5;
     margin-bottom: 8;
-  }
+}

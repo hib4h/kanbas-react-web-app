@@ -1,61 +1,62 @@
 .wd-kanbas-navigation {
-    background-color: black;
-    list-style: none;
-    color: white;
-    font-family: sans-serif;
-    margin: 0;
-    padding: 0;
-    width: 70px;
-    height: 100%;
-  }
-  .wd-kanbas-navigation li {
-    text-align: center;
-    padding: 5px;
-  }
-  
-  .wd-kanbas-navigation li a {
-    color: white;
-    text-decoration: none;
-    font-size: 0.8em;
-  }
-  
-  .wd-kanbas-navigation li.wd-active {
-    background-color: white;
-  }
-  
-  .wd-kanbas-navigation li.wd-active a {
-    color: red;
-  }
+  background-color: black;
+  list-style: none;
+  color: white;
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+  width: 70px;
+  height: 100%;
+}
 
-  .wd-kanbas-navigation i {
-    color: red;
-    margin: 5px;
-  } 
+.wd-kanbas-navigation li {
+  text-align: center;
+  padding: 5px;
+}
 
-  #user-icon {
-    color: white;
-    margin: 5px;
-  }
+.wd-kanbas-navigation li a {
+  color: white;
+  text-decoration: none;
+  font-size: 0.8em;
+}
 
-  #logo {
-    padding: 0;
-  }
+.wd-kanbas-navigation li.wd-active {
+  background-color: white;
+}
 
-  .wd-kanbas-navigation-narrow {
-    list-style: none;
-    color: black;
-    font-family: sans-serif;
-    margin: 0;
-    padding: 0;
-    height: 100%;
-  }
+.wd-kanbas-navigation li.wd-active a {
+  color: red;
+}
 
-  .wd-kanbas-navigation-narrow li {
-    padding: 5px;
-    margin-left: 30;
-  }
-  
-  .wd-kanbas-navigation-narrow li a {
-    color: red;
-    text-decoration: none;
-  }
+.wd-kanbas-navigation i {
+  color: red;
+  margin: 5px;
+}
+
+#user-icon {
+  color: white;
+  margin: 5px;
+}
+
+#logo {
+  padding: 0;
+}
+
+.wd-kanbas-navigation-narrow {
+  list-style: none;
+  color: black;
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+.wd-kanbas-navigation-narrow li {
+  padding: 5px;
+  margin-left: 30;
+}
+
+.wd-kanbas-navigation-narrow li a {
+  color: red;
+  text-decoration: none;
+}
