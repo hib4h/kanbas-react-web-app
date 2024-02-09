@@ -1,7 +1,4 @@
-  .btn {
-    padding: 0.25rem 0.5rem;
-    font-size: 0.9rem;
-  }
+
 
   .btn-gray {
     background-color: lightgray;
@@ -17,7 +14,10 @@
 
   .btn-gray-2 {
     background-color: lightgray;
-    border-color: lightgray;
+    border-color:   .btn {
+    padding: 0.25rem 0.5rem;
+    font-size: 0.9rem;
+  }lightgray;
     color: black;
     padding: 7.8
   }
