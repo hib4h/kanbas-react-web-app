@@ -23,3 +23,21 @@
   .wd-course-navigation li.wd-active a {
     color: black;
   }
+
+  .wd-course-navigation-narrow {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    margin-left: 10px;
+    font-size: 90%;
+  }
+  
+  .wd-course-navigation-narrow li {
+    padding: 10px;
+  }
+  
+  .wd-course-navigation-narrow a {
+    text-decoration: none;
+    color: red;
+  }

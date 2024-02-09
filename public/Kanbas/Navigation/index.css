@@ -40,3 +40,22 @@
   #logo {
     padding: 0;
   }
+
+  .wd-kanbas-navigation-narrow {
+    list-style: none;
+    color: black;
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+  }
+
+  .wd-kanbas-navigation-narrow li {
+    padding: 5px;
+    margin-left: 30;
+  }
+  
+  .wd-kanbas-navigation-narrow li a {
+    color: red;
+    text-decoration: none;
+  }

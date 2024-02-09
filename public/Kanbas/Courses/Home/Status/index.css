@@ -1,4 +1,4 @@
-.wd-status {
+.wd-home-status {
     list-style: none;
     margin: 0;
     padding: 0;
@@ -6,11 +6,11 @@
     margin-left: 10;
   }
 
-  .wd-status li.heading {
+  .wd-home-status li.heading {
     font-size: 100%;
   }
 
-  .wd-status li {
+  .wd-home-status li {
     font-size: 85%;
   }
 
@@ -34,7 +34,7 @@
   margin-bottom: 10;
   }
 
-  .btn-primary {
+  .btn-gray {
     padding: 0.25rem 0.5rem;
     font-size: 0.75rem;
     width: 155px;
