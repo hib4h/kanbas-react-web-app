@@ -1,0 +1,72 @@
+.btn {
+    padding: 0.25rem 0.5rem;
+    font-size: 0.9rem;
+}
+
+.btn-gray {
+    background-color: lightgray;
+    border-color: lightgray;
+    color: black;
+}
+
+.btn-red {
+    background-color: red;
+    border-color: red;
+    color: white;
+}
+
+.btn-gray-2 {
+    background-color: lightgray;
+    border-color: lightgray;
+    color: black;
+    padding: 7.8
+}
+
+.wd-assignments,
+.wd-assignments * {
+    border-radius: 0%;
+    border: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+.wd-assignments {
+    margin: 5px;
+}
+
+.wd-assignments>li {
+    background-color: lightgray;
+    border: 1px solid gray !important;
+    border-left: none !important;
+}
+
+.wd-assignments>li>div {
+    padding: 6px;
+    border-left: 1px solid gray !important;
+}
+
+.wd-assignments>li>ul>li {
+    padding: 5px;
+    border-top: 1px solid gray !important;
+    border-left: 2px solid green;
+}
+
+.wd-assignments>li>ul>li>a {
+    text-decoration: none;
+    color: black;
+}
+
+.wd-assignments>li {
+    margin-bottom: 20px;
+}
+
+.rounded-border {
+    border: 1px solid black;
+    border-radius: 20px;
+    padding: 5px 10px;
+    font-size: smaller;
+}
+
+.font-small {
+    font-size: small;
+}
