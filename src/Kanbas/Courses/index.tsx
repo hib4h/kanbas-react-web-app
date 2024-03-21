@@ -9,8 +9,8 @@ import Assignments from "./Assignments";
 import AssignmentEditor from "./Assignments/Editor";
 import Grades from "./Grades";
 
-function Courses() {
-  const { courses, assignments } = Database;
+function Courses({ courses }: { courses: any[]; }) {
+  const { assignments } = Database;
   const { courseId } = useParams();
   const course = courses.find((course) => course._id === courseId);
   const { pathname } = useLocation();
