@@ -1,4 +1,6 @@
 import ReduxExamples from "./ReduxExamples";
+import ClickEvent from "./ClickEvent";
+import PassingDataOnEvent from "./PassingDataOnEvent";
 import PassingFunctions from "./PassingFunctions";
 import EventObject from "./EventObject";
 import Counter from "./Counter";
@@ -16,17 +18,19 @@ function Assignment4() {
   return (
     <div>
       <h1>Assignment 4</h1>
-      <ReduxExamples/>
-      <PassingFunctions theFunction={sayHello} />
-      <EventObject/>
-      <Counter/>
-      <BooleanStateVariables/>
-      <StringStateVariables/>
-      <DateStateVariable/>
-      <ObjectStateVariable/>
-      <ArrayStateVariable/>
-      <ParentStateComponent/>
-    </div>
+      <ClickEvent />
+      <PassingDataOnEvent />
+      <PassingFunctions theFunction={sayHello}/>
+      <EventObject />
+      <Counter />
+      <BooleanStateVariables />
+      <StringStateVariables />
+      <DateStateVariable />
+      <ObjectStateVariable />
+      <ArrayStateVariable />
+      <ParentStateComponent />
+      <ReduxExamples />
+</div>
   );
 }
 export default Assignment4;
