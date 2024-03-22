@@ -49,6 +49,12 @@
   margin-top: 0.5rem;
 }
 
+.btn-2 {
+  padding: 0.15rem 0.3rem;
+  font-size: 0.9rem;
+  margin-left: 0.2rem;
+}
+
 .btn-gray-mod {
   background-color: lightgray;
   border-color: lightgray;
@@ -58,5 +64,17 @@
 .btn-red-mod {
   background-color: red;
   border-color: red;
+  color: white;
+}
+
+.btn-gray-mod-2 {
+  background-color: gray;
+  border-color: gray;
+  color: white;
+}
+
+.btn-green-mod {
+  background-color: green;
+  border-color: green;
   color: white;
 }

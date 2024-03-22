@@ -1,5 +1,5 @@
 [
-    { "_id": "A101", "title": "Propulsion Assignment", "course": "RS101" },
+    { "_id": "A101", "title": "Propulsion Assignment", "course": "RS101", "dueDate": "2019-03-10" },
     { "_id": "A102", "title": "Combustion Analysis", "course": "RS101" },
     { "_id": "A103", "title": "Nozzle Design Project", "course": "RS101" },
     { "_id": "A201", "title": "Aerodynamics Quiz", "course": "RS102" },
