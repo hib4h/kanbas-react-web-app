@@ -60,7 +60,9 @@ function Assignments() {
             </span>
           </div>
           <ul className="list-group">
-            {assignmentsList.map((assignment) => (
+            {assignmentsList
+            .filter((assignment) => assignment.course === courseId)
+            .map((assignment) => (
               <li className="list-group-item">
                 <FaEllipsisV className="me-2" />
                 <Link

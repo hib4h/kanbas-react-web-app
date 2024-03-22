@@ -42,18 +42,18 @@ function Dashboard(
     <div className="p-4">
       <h2>Dashboard</h2>              <hr />
       <h5>Course</h5>
-      <input value={course.name} className="form-control"
+      <input value={course.name} className="form-control mb-2"
              onChange={(e) => setCourse({ ...course, name: e.target.value }) } />
-      <input value={course.number} className="form-control"
+      <input value={course.number} className="form-control mb-2"
              onChange={(e) => setCourse({ ...course, number: e.target.value }) } />
-      <input value={course.startDate} className="form-control" type="date"
+      <input value={course.startDate} className="form-control mb-2" type="date"
              onChange={(e) => setCourse({ ...course, startDate: e.target.value }) }/>
-      <input value={course.endDate} className="form-control" type="date"
+      <input value={course.endDate} className="form-control mb-2" type="date"
              onChange={(e) => setCourse({ ...course, endDate: e.target.value }) } />
-      <button onClick={addNewCourse} >
+      <button className="btn btn-primary mb-2" style={{background: "green", color: "white"}} onClick={addNewCourse} >
         Add
       </button>
-      <button onClick={updateCourse} >
+      <button className="btn btn-primary mb-2" onClick={updateCourse} >
         Update
       </button>
 
@@ -69,23 +69,25 @@ function Dashboard(
                   <Link className="card-title" to={`/Kanbas/Courses/${course._id}/Home`}
                     style={{ textDecoration: "none", color: "navy", fontWeight: "bold" }}>
                     {course.name} 
-                    <button onClick={(event) => {
+                    </Link>
+                  <p className="card-text">{course.name}</p>
+                  <Link to={`/Kanbas/Courses/${course._id}/Home`} className="btn btn-primary" style={{background: "green", color: "white"}}>
+                    Go </Link>
+                    <span className="float-end">
+                    <button className="btn btn-primary" onClick={(event) => {
                 event.preventDefault();
                 setCourse(course);
               }}>
               Edit
             </button>
-
-                    <button onClick={(event) => {
+            <button className="btn btn-primary" style={{background: "red", color: "white"}} onClick={(event) => {
                         event.preventDefault();
                         deleteCourse(course._id);
                       }}>
                       Delete
               </button>
-                    </Link>
-                  <p className="card-text">{course.name}</p>
-                  <Link to={`/Kanbas/Courses/${course._id}/Home`} className="btn btn-primary">
-                    Go </Link>
+            </span>
+                    
                 </div>
               </div>
             </div>
